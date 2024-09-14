@@ -236,6 +236,7 @@ h2 {
     text-align: justify; /* Justowanie tekstu */
     line-height: 1.6; /* Lepsze odstępy między wierszami */
     font-size:37px !important;
+    padding: 0 10% 0 10%;
 }
 @media (max-width: 768px) {
     #about h2 {
@@ -243,6 +244,7 @@ h2 {
     }
 
     #about p {
+        padding: 0 0 0 0;
         font-size: 0.9rem !important; /* Zmniejszamy czcionkę tekstu */
         text-align: justify; /* Justowanie tekstu */
     }
@@ -255,6 +257,7 @@ h2 {
     }
 
     #about p {
+        padding: 0 0 0 0;
         font-size: 1.0rem !important; /* Znacznie zmniejszamy tekst akapitu */
         font-weight: 700 !important;
         text-align: justify; 
