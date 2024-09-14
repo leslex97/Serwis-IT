@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IT-Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+    <a class="navbar-brand ml-3 ps-5 text-bold" href="#">IT Space</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">O nas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Usługi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class='first-section'>
+<header class="text-center hero-section">
+    <div class="container">
+        <h1 class="display-4  mt-5 p-5 font-weight-bold">IT Space</h1>
+        <p class="lead text-dark text-bold">Profesjonalna obsługa komputerów i sieci.</p>
+
+    </div>
+</header>
+
+<section id="about" class="py-5 mt-5">
+    <div class="container col-9 text-center mt-4 ">
+
+        <p class="lead text-dark text-bold col-12 ">
+            Cześć! Specjalizuję się w serwisowaniu komputerów oraz wsparciu technicznym IT.
+             Jeśli Twój komputer działa wolno, potrzebujesz modernizacji sprzętu lub wsparcia z oprogramowaniem –
+            jestem dostępny przez całą dobę, gotowy do pomocy!
+        </p>
+        <p class="lead text-dark text-bold">
+            Moja praca to gwarancja rzetelności, indywidualnego podejścia i satysfakcji klienta.
+             Większość moich klientów to osoby, które polecają moje usługi dalej, co jest dla mnie najlepszym świadectwem jakości.
+        </p>
+        <a href="#contact" class="btn  btn-dark mt-5 p-2">Skontaktuj się z nami</a>
+    </div>
+</section>
+</div>
+<section id="services" class="py-5 col-12 bg-dark text-light">
+    <div class="container col-10">
+        <h1 class="text-center services-header p-5">Co oferuję?</h1>
+        <div class="row">
+            <!-- Pierwszy skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Darmowa diagnoza</h4>
+                    <p>Sprawdzam sprzęt bez dodatkowych opłat.</p>
+                </div>
+            </div>
+            <!-- Drugi skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Naprawa komputerów</h4>
+                    <p>Profesjonalna naprawa komputerów stacjonarnych i laptopów.</p>
+                </div>
+            </div>
+            <!-- Trzeci skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Czyszczenie sprzętu</h4>
+                    <p>Dokładne czyszczenie komputerów i laptopów z zanieczyszczeń.</p>
+                </div>
+            </div>
+            <!-- Czwarty skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Odzyskiwanie danych</h4>
+                    <p>Odzyskiwanie przypadkowo usuniętych plików i danych.</p>
+                </div>
+            </div>
+            <!-- Piąty skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Zabezpieczenie danych i reinstalacja systemu</h4>
+                    <p>Chronię dane i instaluję nowy system operacyjny.</p>
+                </div>
+            </div>
+            <!-- Szósty skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Modernizacja sprzętu</h4>
+                    <p>Wycena oraz montaż nowych podzespołów do komputerów.</p>
+                </div>
+            </div>
+            <!-- Siódmy skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Pisanie stron internetowych</h4>
+                    <p>Tworzenie stron internetowych dostosowanych do potrzeb klienta.</p>
+                </div>
+            </div>
+            <!-- Ósmy skill -->
+            <div class="col-12 mb-4">
+                <div class="service-card p-3">
+                    <h4>Bezpłatne porady techniczne</h4>
+                    <p>Oferuję bezpłatne doradztwo w zakresie IT.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3 py-5">
+            <p>Jeśli potrzebujesz szybkiej i sprawnej pomocy, skontaktuj się ze mną. Z pewnością będziesz zadowolony z moich usług.</p>
+            <a href="#contact" class="btn btn-outline-light">Skontaktuj się</a>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Kontakt -->
+    <section id="contact" class="py-5">
+        <div class="container text-center text-light">
+            <h2 >Kontakt</h2>
+            <form id="contactForm" class="mt-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Twoje imię">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Twój email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="4" placeholder="Wiadomość"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Wyślij wiadomość</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2024 IT Space Szczecin. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery, Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

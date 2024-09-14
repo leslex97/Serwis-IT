@@ -1,0 +1,233 @@
+/* Dodanie czcionki Roboto */
+body {
+    background-color: #f6fcffd3;
+    color: #3d3d3d;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    margin-top: 80px; /* Dopasuj wartość do wysokości Twojego navbaru */
+}
+
+/* Ustawienie jednolitych ciemnych kolorów dla formularza */
+#contactForm .form-control {
+    background-color: #eaf0f5;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+#contactForm .form-control::placeholder {
+    color: #575757;
+}
+
+#contactForm .form-control:focus {
+    background-color: #ffffff;
+    color: #fff;
+}
+
+/* Zmiana koloru przycisku na ciemnoszary */
+.btn-custom {
+
+    border: none;
+    color: #b90000;
+}
+
+.btn-custom:hover {
+    background-color: #666;
+}
+
+h1,h2{
+    color:#3d3d3d !important;
+}
+
+/* Zmiana koloru tekstu i przycisku na bardziej jednolity */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ccc;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ccc;
+}
+/* Nowe kategorie w sekcji "Co oferuję?" */
+h3 {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Poprawione marginesy dla list */
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 15px;
+}
+
+/* Przyciski */
+.btn-custom {
+    background-color: #444;
+    border: none;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #555;
+}
+
+h2 {
+    color: #fff; /* Nagłówek będzie biały, aby wyróżniał się na tle */
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Większa czcionka dla listy usług */
+/* Większa czcionka dla listy usług */
+.service-item {
+    font-size: 1.75rem; /* Większa czcionka */
+    opacity: 0; /* Początkowa niewidoczność */
+    animation: slideInLeft 1s forwards; /* Animacja w 1 sekundę */
+    margin-bottom: 20px; /* Większe odstępy między elementami */
+}
+
+/* Animacja przesuwania z lewej do prawej */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/* Dodajemy opóźnienie dla każdego elementu */
+.service-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.service-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.service-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.service-item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.service-item:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.service-item:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.service-item:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.service-item:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+/* Stylizowanie przycisku "Skontaktuj się" */
+.btn-outline-light {
+    font-size: 1.25rem; /* Zwiększenie rozmiaru przycisku */
+    padding: 10px 20px;
+    border: 2px solid #fff;
+}
+.navbar {
+    transition: background-color 0.3s ease;
+    background-color: #31373b !important;
+    border:#24282b 1px solid;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9); /* Ciemny navbar, lekko przezroczysty */
+}
+.service-card {
+    background-color: #1f262b; /* Ciemnoszare tło kart */
+    color: #fff; /* Kolor tekstu */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Cień dla lepszego efektu 3D */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animacja przy hover */
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Podnoszenie karty przy hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Zwiększony cień przy hover */
+}
+
+.service-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #d8e8f8; /* Kolor nagłówków kart */
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #ddd; /* Kolor opisu usługi */
+}
+
+/* Sekcja "Co oferuję?" */
+#services {
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    color: #eceaea;
+    margin-bottom: 40px;
+}
+.services-header{
+    color:#ffffff !important;
+}
+.text-bold{
+    font-size:200% !important;
+    font-weight: bold;
+}
+.first-section {
+    background: url('img/mainboard.jpg') no-repeat center center; /* Ścieżka do obrazu */
+
+    background-size: cover; /* Dopasowanie obrazu do wielkości sekcji */
+    color: #fff; /* Kolor tekstu, aby był dobrze widoczny */
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;/* Dostosuj padding w zależności od wysokości sekcji */
+}
+
+/* Aby lepiej czytać tekst na tle obrazu, możemy dodać warstwę półprzezroczystą */
+.first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(243, 243, 243, 0.815); /* Biała, półprzezroczysta warstwa */
+    z-index: -1; /* Ustawienie warstwy poniżej treści */
+}
+
+.first-section h2, .first-section p {
+    z-index: 2;  /* Ustawienie treści ponad warstwą półprzezroczystą */
+}
